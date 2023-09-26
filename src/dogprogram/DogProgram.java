@@ -1,3 +1,7 @@
+// Project: Dog Program
+// Author: Referdinand G Balanquit Jr
+// Version: 1
+// Date: 26/09/2023
 package dogprogram;
 
 public class DogProgram {
@@ -10,6 +14,9 @@ public class DogProgram {
         firstDog.name = "Ruben";
         firstDog.gender = 'M';
         firstDog.age = 22;
+        firstDog.colourOfCoat = "Neon Green";
+        firstDog.breed = "";
+        firstDog.
         
         secondDog.name = "Daniel";
         secondDog.gender = 'M';
