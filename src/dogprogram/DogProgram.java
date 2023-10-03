@@ -32,6 +32,15 @@ public class DogProgram {
         firstDog.bark();
         firstDog.displayDetails();
         System.out.println("======================================");
+        
+        firstDog.walkTheDog( 500);
+        System.out.println("======================================");
+        firstDog.patTheDog();
+        System.out.println("======================================");
+        firstDog.cleanTeeth();
+        System.out.println("======================================");
+        firstDog.feedTheDog();
+        System.out.println("======================================");
         // End of firstDog
         
         // Start of secondDog
@@ -55,6 +64,7 @@ public class DogProgram {
         secondDog.displayDetails();
         secondDog.bark();
         // End of secondDog
+     
         
     }
     
