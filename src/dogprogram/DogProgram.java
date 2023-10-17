@@ -10,6 +10,7 @@ public class DogProgram {
        
         Dog firstDog = new Dog(); //Declaring a new dog
         Dog secondDog = new Dog(); // Using instance variables
+        Dog thirdDog = new Dog("White", "Retriever", "Large", 'M', 4, 14.2, 3.5);   // Demonstrating constuctors
         
         // Start of firstDog
         firstDog.name = "Ruben";
@@ -61,11 +62,15 @@ public class DogProgram {
         secondDog.teethDirty = true;
         secondDog.isHappy = true;
         
+        
         secondDog.displayDetails();
         secondDog.bark();
+        System.out.println("======================================");
         // End of secondDog
      
-        
+        thirdDog.displayDetails();
+        System.out.println("======================================");
+        // End of thirdDog
     }
     
 }
