@@ -20,11 +20,11 @@ public class Dog {
 //    Boolean isHappy;
     
     // Instance Variables
-    String name, colourOfCoat, breed, size, ownerName, foodType;
-    char gender;
-    int age, noOfLegs;
-    double weight, height, distanceWalked;
-    Boolean trained, isHungry, teethDirty, isHappy;
+    private String name, colourOfCoat, breed, size, ownerName, foodType;
+    private char gender;
+    private int age, noOfLegs;
+    private double weight, height, distanceWalked;
+    private Boolean trained, isHungry, teethDirty, isHappy;
     
     // Constructors to create default values for unknown data
     Dog(){
@@ -62,10 +62,101 @@ public class Dog {
         name = "Unknown";
     }
     
+    //Getters and Setters
+    
+    public void setName(String name){
+        this.name = name;
+    }
+    
+    
+    public String getName(){
+        return name;
+    }
+    
+    public String getColourOfCoat() {
+        return colourOfCoat;
+    }
+
+    public void setColourOfCoat(String colourOfCoat) {
+        this.colourOfCoat = colourOfCoat;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    public String getFoodType() {
+        return foodType;
+    }
+
+    public void setFoodType(String foodType) {
+        this.foodType = foodType;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getNoOfLegs() {
+        return noOfLegs;
+    }
+
+    public void setNoOfLegs(int noOfLegs) {
+        this.noOfLegs = noOfLegs;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+            
     //Methods
     public void bark(){ //method header
         System.out.println("BARK! BARK!");
-        
     }
         
     public void displayDetails(){
